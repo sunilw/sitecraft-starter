@@ -27,3 +27,7 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+add_image_size( 'sidebar-thumb', 120, 120, true ); // Hard Crop Mode
+add_image_size( 'homepage-thumb', 220, 180 ); // Soft Crop Mode
+add_image_size( 'singlepost-thumb', 900, 600 ); // Unlimited Height Mode

@@ -1,6 +1,8 @@
 <?php while (have_posts()) : the_post(); ?>
     <article <?php post_class(); ?>>
 
+	<?php include('post-header.php')  ?>
+
         <div class="entry-content">
             <?php the_content(); ?>
         </div>

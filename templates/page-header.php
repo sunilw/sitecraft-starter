@@ -1,6 +1,7 @@
 <?php use Roots\Sage\Titles; ?>
 
-<header class="container-fluid page-header ">
+<header class="page-header ">
+    <div class="container">
     <div class="row">
         <div class="col-xs-12">
             <div class="title">
@@ -10,5 +11,6 @@
                 }  ?>
             </div>
         </div>
+    </div>
     </div>
 </header>

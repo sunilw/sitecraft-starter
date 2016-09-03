@@ -1,0 +1,20 @@
+
+.single main article.post {
+    overflow: hidden  ;
+}
+
+.page, .single {
+    .featured-image-container {
+        background-color: #fff ;
+        padding: 4px ;
+        border: 1px  solid #f1f1f1;
+        margin-bottom: 16px ;
+    }
+}
+
+main article.post {
+    p {
+	line-height: 1.7 ;
+        margin-bottom: 20px !important ;
+    }
+}
