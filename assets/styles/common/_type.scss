@@ -1,0 +1,8 @@
+h2.entry-title a, h2.entry-title {
+    color: #333 ;
+}
+
+h2.entry-title a:hover,
+h2.entry-title:hover {
+    color: $brand-primary ;
+}

@@ -1,0 +1,17 @@
+/*  styles for global site header */
+
+header#global-header {
+    padding-top: 2rem ;
+    padding-bottom: 2rem ;
+    background-color: transparent ;
+    border-bottom: initial ;
+
+    .navbar-nav > li >a {
+	color: #333 ;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover {
+	background-color: initial ;
+    }
+
+}
