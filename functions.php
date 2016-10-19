@@ -31,3 +31,12 @@ unset($file, $filepath);
 add_image_size( 'sidebar-thumb', 120, 120, true ); // Hard Crop Mode
 add_image_size( 'homepage-thumb', 220, 180 ); // Soft Crop Mode
 add_image_size( 'singlepost-thumb', 900, 600 ); // Unlimited Height Mode
+
+/*
+* Change the excerpt length
+ */
+
+add_filter('excerpt_length', 'my_excerpt_length');
+function my_excerpt_length($length) {
+    return 20;
+}

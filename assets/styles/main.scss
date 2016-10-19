@@ -7,6 +7,7 @@
 
 @import "common/global";
 @import "common/page-header";
+@import "common/entry-header";
 @import "common/entry-meta";
 @import "components/buttons";
 @import "components/comments";
@@ -18,6 +19,7 @@
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
+@import "layouts/archive";
 @import "layouts/tinymce";
 
 
@@ -30,6 +32,6 @@
 .sidebar{
     background-color: #fafafa ;
     .widget {
-	padding-top: 2rem ;	
+	padding-top: 2rem ;
     }
 }
