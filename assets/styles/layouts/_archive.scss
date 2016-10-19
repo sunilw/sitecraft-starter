@@ -1,0 +1,37 @@
+.archive {
+    main {
+	.article-wrap {
+	    padding: 2%  ;
+	    article {
+		background-color: #eff0f1 ;
+		padding: 6% ;
+		h3 {
+		    margin-top: 0 ;
+		}
+		p {
+		    font-size: 14px ;		    
+		}
+	    }
+	}
+    }
+}
+
+
+@media (min-width: 666px) { 
+    .archive  main article.post {
+	
+    }       
+}
+
+@media (min-width: 768px) {
+    
+}
+
+
+@media (min-width: 768px) { 
+    .archive {
+	main {
+	    width: 100% !important; 
+	} 
+    } 
+}
